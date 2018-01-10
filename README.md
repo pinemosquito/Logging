@@ -1,7 +1,9 @@
 # Logging
 
 ## Python has a built-in library called logging
-Python enables a **standardized** framework for logging a program's execution
+Python enables a **standardized** and **flexibile** framework for logging a program's execution
+
+To emit a log message, a caller first requests a __name__ logger.
 
 ```
     import logging
