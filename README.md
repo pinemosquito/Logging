@@ -7,7 +7,7 @@ to log program's execution to file
     import logging
     
     # Create the Logger with __name__
-    # Set logging severity level (WARNING, DEBUG, INFO)
+    # Set logging severity level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.WARNING)
  
