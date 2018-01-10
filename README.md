@@ -8,7 +8,7 @@ setting the logging severity level
 setting the file to log messages to
 setting the format of the log messages
 
-   # Create the Logger with __name__
+    # Create the Logger with __name__
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.WARNING)
  
