@@ -5,6 +5,9 @@ Python enables a **standardized** and **flexibile** framework for logging a prog
 
 To emit a log message, a caller first requests a __name__ logger.
 
+This logger can be used to emit messages at different log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+
+
 ```
     import logging
     
