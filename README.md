@@ -1,7 +1,7 @@
 # Logging
 
 ## Python has a built-in library called logging
-to log program's execution to file
+Python enables a **standardized** framework for logging a program's execution
 
 ```
     import logging
