@@ -1,6 +1,7 @@
 # Logging
 
-## 
+## Python has a built-in library called logging
+to log program's execution to file
 
 ```
 
