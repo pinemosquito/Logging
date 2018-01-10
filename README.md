@@ -23,9 +23,12 @@ to log program's execution to file
  
     # Add the Handler to the Logger
     logger.addHandler(filehandler)
-    logger.info('Completed configuring logger()!')
+    logger.info('Creating an instance of log')
     
     # close and remove handler
     filehandler.close()
     logger.removeHandler(filehandler)
+    
 ```
+
+### 2018-01-10 11:06:09,464 - __main__ - INFO - creating an instance of log
